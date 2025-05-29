@@ -9,9 +9,9 @@
   "devDependencies": {
     "@noahyu/nuxt-fetch": "workspace:*",
     "@noahyu/nuxt-route": "workspace:*",
-    "nuxt": "^3.15.4",
-    "sass": "^1.83.4",
-    "vue": "^3.5.13"
+    "nuxt": "^3.17.4",
+    "sass": "^1.89.0",
+    "vue": "^3.5.15"
   },
   "browserslist": [
     "last 2 version",
