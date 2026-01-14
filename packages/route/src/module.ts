@@ -9,7 +9,7 @@ export default defineNuxtModule<Options>({
     name: '@noahyu/nuxt-route',
     configKey: 'nuxtRoute',
     compatibility: {
-      nuxt: '^3.11.1',
+      nuxt: '>=3.0.0',
     },
   },
   defaults,

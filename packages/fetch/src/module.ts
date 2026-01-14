@@ -9,7 +9,7 @@ export default defineNuxtModule<Record<string, Partial<Options>>>({
     name: '@noahyu/nuxt-fetch',
     configKey: 'nuxtFetch',
     compatibility: {
-      nuxt: '^3.11.1',
+      nuxt: '>=3.0.0',
     },
   },
   defaults,
