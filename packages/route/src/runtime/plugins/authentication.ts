@@ -14,7 +14,7 @@ import nuxtRoute from '#nuxtRoute'
 const verifyPath = (to: string, authPath: string[]): string[] => {
   const path = to.split('?')[0]
   return authPath.filter((item) => {
-    if (item.endsWith('/')) {
+    if (item !== '/' && item.endsWith('/')) {
       return `${path}/`.startsWith(item)
     }
     return path === item
