@@ -47,7 +47,6 @@ export default defineNuxtConfig({
 ### Helper
 
 - `useToLogin(fullPath: string, open?: '_blank'): void`
-
   - 记住 URL 并跳转到登录页
   - 登录成功后如果调用了 `useLoginSuccess` 将跳转到记住的 URL 地址
   - param `open` 是否新窗口(标签页)打开
@@ -58,7 +57,6 @@ useToLogin('/about')
 ```
 
 - `useLoginSuccess(token: string, options?: CookieOptions | string, to?: string): void`
-
   - 登录成功后调用，保存 `token` 到 cookie 以及执行页面跳转
   - `token` 将要写入 cookie 的值， name 为 `nuxtRoute.cookieName`
   - `options` 当为 `object` 类型时，作为 `useCookie` 的 `options`；当为 `string` 类型时，作为跳转的 URL 地址

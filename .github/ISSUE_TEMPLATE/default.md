@@ -1,11 +1,9 @@
 ### Environment
 
 - [ ] @noahyu/nuxt-fetch
-
   - version:
 
 - [ ] @noahyu/nuxt-route
-
   - version:
 
 - Vue Version:
