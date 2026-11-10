@@ -37,7 +37,8 @@ export default defineEventHandler(async (event: H3Event) => {
 
     const cookies = parseCookies(event)
 
-    headers['Authorization'] = cookies[options.cookieName || 'access_token'] || 'none'
+    headers['Authorization'] =
+      cookies[options.cookieName || 'access_token'] || headers['Authorization']
     return proxyRequest(event, url, { headers })
   }
 })
