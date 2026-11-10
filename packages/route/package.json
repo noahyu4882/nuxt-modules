@@ -1,6 +1,6 @@
 {
   "name": "@noahyu/nuxt-route",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Secure and easy route ability integration with Nuxt.js",
   "main": "./dist/module.mjs",
   "module": "./dist/module.mjs",
